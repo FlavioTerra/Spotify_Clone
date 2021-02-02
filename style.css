@@ -1,6 +1,10 @@
+/*
+    ______________ Main Formats ______________
+*/
 
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -10,6 +14,10 @@ body {
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
 }
+
+/*
+    ______________ Navigation Bar Formatting ______________
+*/
 
 header nav.navbar {
     background: rgba(0, 0, 0, 0.6);
@@ -39,11 +47,27 @@ header nav.navbar {
     margin: 12px 15px;
 }
 
+/*
+    ______________ Typography ______________
+*/
+
 h1 {
     font-weight: 900;
     margin-bottom: 50px;
     color: #fff;
     letter-spacing: -0.05em;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /*
@@ -80,6 +104,77 @@ h1 {
 .btn-white:hover {
     background: #fff;
     color: #000;
+}
+
+/*
+    ______________ Formatting Sections ______________
+*/
+
+.box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#services {
+    background: #fff;
+}
+
+#services .albuns {
+    padding: 10px 0;
+}
+
+#services h2, h3 {
+    color: #7c25f8;
+}
+
+#features p, h2 {
+    color: #fff;
+}
+
+#features h3 {
+    color: #9bf0e1;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/*
+    ______________ Footer Formats ______________
+*/
+
+footer {
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer div.col-md-4 li {
+    margin-left: 10px;
 }
 
 /*
