@@ -47,6 +47,10 @@ header nav.navbar {
     margin: 12px 15px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 /*
     ______________ Typography ______________
 */
@@ -119,8 +123,8 @@ h3 {
     background: #fff;
 }
 
-#services .albuns {
-    padding: 10px 0;
+#services img {
+    margin: 10px 0;
 }
 
 #services h2, h3 {
@@ -157,6 +161,7 @@ footer h4 {
     color: #919496;
     text-transform: uppercase;
     font-size: 0.8em;
+    padding-top: 25px;
 }
 
 footer .navbar-nav a {
@@ -173,8 +178,12 @@ footer ul {
     list-style: none;
 }
 
-footer div.col-md-4 li {
+footer div.col-lg-4 li {
     margin-left: 10px;
+}
+
+footer ul li {
+    padding: 8px 0;
 }
 
 /*
@@ -186,7 +195,8 @@ footer div.col-md-4 li {
         margin: 10px;
     }
 
-    header img {
+    header img,
+    footer div.col-lg-2 img {
         width: 92px;
     }
 }
@@ -200,7 +210,8 @@ footer div.col-md-4 li {
         margin: 10px;
     }
 
-    header img {
+    header img,
+    footer div.col-lg-2 img  {
         width: 102px;
     }
 }
@@ -210,7 +221,8 @@ footer div.col-md-4 li {
         font-size: 4em;
     }
 
-    header img {
+    header img,
+    footer div.col-lg-2 img  {
         width: 112px;
     }
 }
